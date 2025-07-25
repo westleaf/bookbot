@@ -18,5 +18,5 @@ def get_sorted_list(dict_to_sort):
     for key, value in dict_to_sort.items():
       sorted_dict_list.append({"char":key, "num":int(value)})
 
-    sorted_dict_list.sort(key=sort_on)
+    sorted_dict_list.sort(key=sort_on, reverse=True)
     return sorted_dict_list
